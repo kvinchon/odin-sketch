@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 24px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 50vw;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.square {
+  border: 2px solid black;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+button {
+  padding: 8px 16px;
+}
