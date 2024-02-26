@@ -28,6 +28,7 @@ function hover() {
 function generateGrid(squaresPerSide = 0) {
   const container = document.querySelector('#container');
   container.innerHTML = '';
+  interactions = 0;
 
   while (
     squaresPerSide < 1 ||
